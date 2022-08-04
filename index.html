@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar-AE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speech to text </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading ">speech (Arabic) to text </h1>
+         <p id="state"> press record </p>
+        <textarea dir="rtl" id="tArea"></textarea>
+        <button type="button" id="recording" onclick="voice_recognition()">record
+        </button>
+        <button type="button" id="connect" onclick="onConnectedUsb()">connect</button>
+
+<script src="script.js"></script>
+<script src="arduino.js"></script>
+</script>
+</body>
+</html>

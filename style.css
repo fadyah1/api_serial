@@ -1,0 +1,63 @@
+body{
+    background-color: wheat;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+}
+
+#state{
+    position: absolute;
+    top: 530px;
+    left: 430px;
+}
+
+#tArea{
+    width: 700px;
+    height: 300px;
+    border: 3px solid ;
+    background-color: rgb(205, 231, 230);
+    border-style:double black;
+    border-radius: 10px;
+    position: absolute;
+    top: 220px;
+    left: 410px;
+
+}
+
+#tArea{
+
+    font-size: 30px;
+    
+}
+
+#recording{
+    background-color: lightcoral;
+    
+    width: 70px;
+    height: 35px;
+    border-radius: 7px;
+    border:thin;
+    position: absolute;
+    top: 580px;
+    left: 780px;
+}
+#recording:hover , #connect:hover {
+    color: #000;
+    background-color:rgb(255, 144, 136); 
+    border-radius: 7px;
+  
+}
+#connect{
+    background-color: lightcoral;
+    width: 70px;
+    height: 35px;
+    border-radius: 7px;
+    border:thin;
+    position: absolute;
+    top: 580px;
+    left: 690px;
+}
